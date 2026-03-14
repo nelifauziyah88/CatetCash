@@ -8,10 +8,6 @@
 
 @include('partials.features')
 
-{{-- @include('partials.how-it-works') --}}
-
-{{-- @include('partials.testimonials') --}}
-
-{{-- @include('partials.cta') --}}
+@include('partials.about')
 
 @endsection
