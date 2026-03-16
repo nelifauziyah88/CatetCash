@@ -74,7 +74,7 @@
 <nav id="mainNav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-3 px-6">
     <div class="max-w-6xl mx-auto flex items-center justify-between">
 
-        <a href="#" class="flex items-center gap-3 group">
+        <a href="{{ route('home') }}" class="flex items-center gap-3 group">
             <div class="logo-ring w-10 h-10 flex-shrink-0">
                 <div class="logo-inner">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none">

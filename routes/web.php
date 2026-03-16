@@ -17,4 +17,16 @@ Route::get('/register', function () {
     return view('auth.register');
 })->name('register');
 
+Route::get('/forgot-password', function () {
+    return view('auth.forgot-password');
+})->name('password.request');
+
+Route::get('/terms', function () {
+    return view('pages.terms');
+})->name('terms');
+
+Route::get('/privacy', function () {
+    return view('pages.privacy');
+})->name('privacy');
+
 

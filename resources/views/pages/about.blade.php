@@ -188,7 +188,7 @@
                     <p class="text-white/80 text-sm mb-8">
                         It takes less than a minute to start using CatetCash.
                     </p>
-                    <a href="#"
+                    <a href="{{ route('register') }}"
                         class="inline-flex items-center gap-2 px-8 py-4 bg-white text-green-700 font-display font-extrabold text-sm rounded-full hover:bg-green-50 transition-all"
                         style="box-shadow:0 8px 28px rgba(0,0,0,.15)">
                         Create Free Account

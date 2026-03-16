@@ -83,7 +83,7 @@
                 </div>
                 <div class="text-sm text-gray-400">Free forever. No credit card required.</div>
             </div>
-            <a href="#"
+            <a href="{{ route('register') }}"
                class="inline-flex items-center gap-2 px-6 py-3 text-sm font-bold text-white font-display rounded-full transition-all hover:-translate-y-0.5 whitespace-nowrap"
                style="background: linear-gradient(135deg,#16a34a,#22c55e); box-shadow: 0 6px 20px rgba(34,197,94,.28)">
                 Get Started Free
