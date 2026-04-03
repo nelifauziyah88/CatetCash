@@ -51,7 +51,7 @@
             </h1>
 
             <p class="text-gray-500 leading-relaxed text-[17px]">
-                CatetCash was built with a very simple idea in mind —
+                CatetCash was built with a very simple idea in mind
                 tracking personal finances should not be complicated.
             </p>
 
@@ -66,7 +66,7 @@
                         Why CatetCash exists
                     </h2>
                     <p class="text-gray-500 text-sm leading-relaxed mb-4">
-                        Most budgeting tools try to do everything at once — complex dashboards,
+                        Most budgeting tools try to do everything at once complex dashboards,
                         dozens of features, and a steep learning curve.
                     </p>
                     <p class="text-gray-500 text-sm leading-relaxed mb-4">
@@ -74,7 +74,7 @@
                         <strong>where their money actually goes every day.</strong>
                     </p>
                     <p class="text-gray-500 text-sm leading-relaxed">
-                        CatetCash focuses on the essentials — recording expenses,
+                        CatetCash focuses on the essentials recording expenses,
                         tracking budgets, and exporting simple reports.
                         Nothing more, nothing less.
                     </p>
@@ -153,7 +153,7 @@
             ],
             [
                 'title' => 'Clarity',
-                'desc' => 'Numbers should be easy to read and understand — no confusing dashboards.',
+                'desc' => 'Numbers should be easy to read and understand no confusing dashboards.',
             ],
         ] as $item)
                     <div class="about-block p-7">

@@ -24,7 +24,7 @@
             </h1>
 
             <p class="text-gray-500 leading-relaxed text-[17px]">
-                By using CatetCash services, you agree to the following terms and conditions. Please read them carefully.
+                By using CatetCash, you agree to the terms below. Please read carefully.
             </p>
 
             <p class="text-gray-400 text-xs mt-4">
@@ -66,8 +66,10 @@
                         <h2 class="font-display text-lg font-bold text-gray-900">1. Use of Service</h2>
                     </div>
                     <div class="space-y-3 text-sm text-gray-500 leading-relaxed">
-                        <p>CatetCash is a personal finance tracking application provided free of charge. By registering and using this service, you confirm that you are at least 17 years old and have the legal capacity to agree to this agreement.</p>
-                        <p>This service is provided "as is" and is intended only for personal financial tracking. Using CatetCash for commercial purposes, corporate businesses, or illegal activities without our written permission is prohibited.</p>
+                        <p>CatetCash is a free personal finance tracking app. By registering, you confirm you are at least
+                            17 years old and legally capable of accepting this agreement.</p>
+                        <p>This service is provided "as is" for personal use only. Commercial, corporate, or illegal use
+                            without written permission is strictly prohibited.</p>
                     </div>
                 </div>
 
@@ -83,8 +85,10 @@
                         <h2 class="font-display text-lg font-bold text-gray-900">2. Account & Security</h2>
                     </div>
                     <div class="space-y-3 text-sm text-gray-500 leading-relaxed">
-                        <p>You are fully responsible for maintaining the confidentiality of your password and all activities under your account. Please contact us immediately if you detect unauthorized account usage.</p>
-                        <p>CatetCash is not responsible for any losses caused by user negligence in maintaining account security, including sharing passwords with other parties.</p>
+                        <p>You are responsible for keeping your password confidential and for all activity under your
+                            account. Notify us immediately if you suspect unauthorized access.</p>
+                        <p>CatetCash is not liable for losses resulting from negligence, including sharing your credentials
+                            with others.</p>
                     </div>
                 </div>
 
@@ -101,8 +105,10 @@
                         <h2 class="font-display text-lg font-bold text-gray-900">3. Data & Privacy</h2>
                     </div>
                     <div class="space-y-3 text-sm text-gray-500 leading-relaxed">
-                        <p>We collect the data you enter (name, email, and transaction data) solely to operate the service. We do not sell, rent, or share your personal data with third parties without your consent.</p>
-                        <p>Your data is stored on secure servers with industry-standard encryption. You have the right to request the deletion of your account data at any time by contacting our team.</p>
+                        <p>We collect only what's needed to operate the service — your name, email, and transaction data. We
+                            never sell or share your data with third parties without consent.</p>
+                        <p>Your data is stored on encrypted, secure servers. You may request full account deletion at any
+                            time by contacting our team.</p>
                     </div>
                 </div>
 
@@ -119,15 +125,9 @@
                         <h2 class="font-display text-lg font-bold text-gray-900">5. Prohibited Use</h2>
                     </div>
                     <div class="text-sm text-gray-500 leading-relaxed">
-                        <p class="mb-3">Users are prohibited from performing the following actions while using CatetCash:</p>
+                        <p class="mb-3">The following actions are strictly prohibited on CatetCash:</p>
                         <ul class="space-y-2">
-                            @foreach ([
-                            'Perform reverse engineering, decompile, or modify the application code.',
-                            'Use bots, scrapers, or other automated tools to access the service.',
-                            'Create fake accounts or impersonate other users.',
-                            'Attempt to access other users’ data without permission.',
-                            'Use the service for illegal activities or fraud.'
-                            ] as $item)
+                            @foreach (['Reverse engineering, decompiling, or modifying the application.', 'Using bots, scrapers, or automated tools to access the service.', 'Creating fake accounts or impersonating other users.', 'Attempting to access another user\'s data without authorization.', 'Using the service for any illegal activity or fraud.'] as $item)
                                 <li class="flex items-start gap-2.5">
                                     <svg class="w-4 h-4 fill-red-400 mt-0.5 shrink-0" viewBox="0 0 20 20">
                                         <path fill-rule="evenodd"
@@ -156,7 +156,7 @@
                     </div>
 
                     <p class="text-white/55 text-sm leading-relaxed mb-5">
-                        Do you have questions or concerns about these terms and conditions? Our team is ready to help you.
+                        Questions about these terms? We're happy to help.
                     </p>
 
                     <a href="mailto:basehub@gmail.com"

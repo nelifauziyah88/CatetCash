@@ -29,4 +29,6 @@ Route::get('/privacy', function () {
     return view('pages.privacy');
 })->name('privacy');
 
-
+Route::get('/dashboard', function () {
+    return view('dashboard.index');
+})->name('dashboard');

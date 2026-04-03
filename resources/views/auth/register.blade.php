@@ -166,9 +166,9 @@
                             class="mt-0.5 w-4 h-4 rounded accent-green-500 cursor-pointer shrink-0">
                         <label for="terms" class="text-sm text-gray-500 leading-snug cursor-pointer">
                             I agree
-                            <a href="#" class="text-green-600 font-medium hover:underline">Terms & Conditions</a>
+                            <a href="{{ route('terms') }}" class="text-green-600 font-medium hover:underline">Terms & Conditions</a>
                             and
-                            <a href="#" class="text-green-600 font-medium hover:underline">Privacy Policy</a>
+                            <a href="{{ route('privacy') }}" class="text-green-600 font-medium hover:underline">Privacy Policy</a>
                             of CatetCash.
                         </label>
                     </div>

@@ -10,13 +10,11 @@
 
     <meta name="description" content="CatetCash adalah aplikasi pencatatan keuangan pribadi yang mudah dan gratis.">
 
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Bricolage+Grotesque:wght@700;800&display=swap"
         rel="stylesheet">
 
-    <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
@@ -28,14 +26,12 @@
             font-family: 'Bricolage Grotesque', sans-serif;
         }
 
-        /* Gradient text */
         .gradient-text {
             background: linear-gradient(135deg, #16a34a, #22c55e, #84cc16);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
-        /* Glass card */
         .glass-card {
             background: rgba(255, 255, 255, 0.85);
             backdrop-filter: blur(12px);

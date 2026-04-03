@@ -124,7 +124,7 @@
                         style="font-size:30px;line-height:1.1">Quick Record</h2>
                     <p class="text-gray-500 text-sm leading-relaxed mb-6">
                         Log any expense the moment it happens. No lengthy forms, no categories to configure first
-                        — just enter what you spent and move on with your day.
+                        just enter what you spent and move on with your day.
                     </p>
                     <div class="flex flex-col gap-3">
                         @foreach (['Enter name, amount, and date', 'Instantly updates your remaining budget', 'Entries grouped automatically by date', 'Optional note for each entry'] as $point)
