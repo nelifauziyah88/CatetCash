@@ -32,3 +32,7 @@ Route::get('/privacy', function () {
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 })->name('dashboard');
+
+Route::get('/transactions', function () {
+    return view('transactions.index');
+})->name('transactions.index');
